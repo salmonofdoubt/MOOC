@@ -1,22 +1,16 @@
-<data>
-    <student name="John">
-        <email>john@mail.com</email>
-        <grade>A</grade>
-        <age>16</age>
-    </student>
-    <student name="Alice">
-        <email>alice@mail.com</email>
-        <grade>B</grade>
-        <age>17</age>
-    </student>
-    <student name="Bob">
-        <email>bob@mail.com</email>
-        <grade>C</grade>
-        <age>16</age>
-    </student>
-    <student name="Hannah">
-        <email>hannah@mail.com</email>
-        <grade>A</grade>
-        <age>17</age>
-    </student>
-</data>
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+<world>
+<region name="USA">
+<AgSupplySector name="Corn">
+<AgSupplySubsector name="Corn_NelsonR">
+<AgProductionTechnology name="Corn_NelsonR_IRR_hi">
+<period year="2015">
+<agProdChange>0.0043</agProdChange>
+</period>
+</AgProductionTechnology>
+</AgSupplySubsector>
+</AgSupplySector>
+</region>
+</world>
+</scenario>
