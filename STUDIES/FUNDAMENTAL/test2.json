@@ -1,0 +1,81 @@
+{
+    "CASHOFF": {
+        "@xmlns:ns0": "urn:schemas-microsoft-com:datatypes",
+        "ClientID": {
+            "#text": "USICOSvc",
+            "@ns0:dt": "string"
+        },
+        "Id": {
+            "#text": "CO.187.882.20200330.EXPP",
+            "@ns0:dt": "string"
+        },
+        "Op": {
+            "#text": "40009",
+            "@ns0:dt": "i4"
+        },
+        "OpLogin": {
+            "#text": "40009",
+            "@ns0:dt": "string"
+        },
+        "PICKUP": {
+            "AcctWkStn": {
+                "#text": "99",
+                "@ns0:dt": "i4"
+            },
+            "Amt": {
+                "#text": "0",
+                "@ns0:dt": "fixed.14.4"
+            },
+            "Date": {
+                "#text": "2020-03-31T10:35:15",
+                "@ns0:dt": "dateTime"
+            },
+            "DateBus": {
+                "#text": "2020-03-30T10:35:15",
+                "@ns0:dt": "dateTime"
+            },
+            "IsFinal": {
+                "#text": "1",
+                "@ns0:dt": "ui1"
+            },
+            "IsTill": {
+                "#text": "1",
+                "@ns0:dt": "ui1"
+            },
+            "TENDER": {
+                "Amt": {
+                    "#text": "0",
+                    "@ns0:dt": "fixed.14.4"
+                },
+                "Count": {
+                    "#text": "0",
+                    "@ns0:dt": "i4"
+                },
+                "Idx": {
+                    "#text": "1",
+                    "@ns0:dt": "i4"
+                }
+            },
+            "Till": {
+                "#text": "2099",
+                "@ns0:dt": "i4"
+            }
+        },
+        "Store": {
+            "#text": "187",
+            "@ns0:dt": "i4"
+        },
+        "Time": {
+            "#text": "2020-03-31T10:35:15",
+            "@ns0:dt": "dateTime"
+        },
+        "Tran": {
+            "#text": "5378",
+            "@ns0:dt": "i4"
+        },
+        "WkStn": {
+            "#text": "99",
+            "@ns0:dt": "i4"
+        }
+    }
+}
