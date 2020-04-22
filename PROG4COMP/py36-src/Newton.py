@@ -31,10 +31,9 @@ def _test():
 
     x0 = float(sys.argv[1])
     x, info = Newton(_g, x0, _dg, store=True)
-    print 'root: %.16g' % x
+    print('root: %.16g' % x)
     for i in range(len(info)):
-        print 'Iteration %2d: f(%g)=%g' % \
-              (i, info[i][0], info[i][1])
+        print('Iteration %2d: f(%g)=%g' % (i, info[i][0], info[i][1]))
 
     x = linspace(-7, 7, 401)
     y = _g(x)
