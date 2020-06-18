@@ -1,3 +1,3 @@
 1. Install PostGresSQL Engine 
 2. Install PgAdmin graphical interface
-3. Download dvdrental.tar
+3. Download dvdrental.tar (old file)
